@@ -81,6 +81,14 @@ int main(){
     return 0;
 }
 
+#OUTPUT
+
+Enter a number:8
+Positive
+
+Enter a number:-9
+Negative
+
 LOOPS 
 
 #include<iostream>
