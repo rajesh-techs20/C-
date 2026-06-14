@@ -25,6 +25,15 @@ Inputs
       return 0;
   }
 
+
+#OUTPUT
+Enter Name:Rajesh
+Enter Age:19
+Enter College Name:RNSIT
+Name is:Rajesh
+Age is:19
+College name is:RNSIT
+
 If Else
 
 #include<iostream>
