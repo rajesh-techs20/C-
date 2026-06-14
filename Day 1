@@ -54,6 +54,11 @@ If Else
       return 0;
   }
 
+#OUTPUT
+Enter Marks:35
+Pass
+
+
 2nd take number print positive or negative or zero
 
 #include<iostream>
