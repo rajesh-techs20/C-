@@ -30,3 +30,25 @@ Enter a number:5
 
 
 === Code Execution Successful ===
+
+
+#factorial
+#include<iostream>
+using namespace std;
+int main(){
+    int n,i;
+    int factorial=1;
+    cout<<"Enter a number:";
+    cin>>n;
+    
+    for(i=1;i<=n;i++){
+        if(n==0||n==1){
+            cout<<1;
+        }
+        else{
+            factorial=factorial*i;
+        }
+    }
+    cout<<factorial;
+    return 0;
+}
