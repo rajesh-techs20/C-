@@ -52,3 +52,8 @@ int main(){
     cout<<factorial;
     return 0;
 }
+
+OUTPUT
+
+Enter a number:5
+120
