@@ -22,3 +22,9 @@
     return 0;
 }
         
+//OUTPUT
+Enter a nUmber:456
+Non Palindrome
+
+Enter a number:121
+Palindrome
