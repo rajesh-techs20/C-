@@ -41,3 +41,12 @@ The elements in array are1 2 3 4 5
      cout<<"sum of all the elements in array are:"<<sum;
      return 0;
  }
+OUTPUT
+
+Enter the number of elements in array:5
+Enter the elements in to array:10 20 30 40 50
+
+Sum of elements
+sum of all the elements in array are:150
+
+=== Code Execution Successful ===
