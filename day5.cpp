@@ -16,3 +16,7 @@ TAKE FIVE NUMBERS AND PRINT IT ALL
     return 0;
   }
     
+
+OUTPUT
+Enter five elements:1 2 3 4 5
+The elements in array are1 2 3 4 5 
