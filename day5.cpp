@@ -50,3 +50,28 @@ Sum of elements
 sum of all the elements in array are:150
 
 === Code Execution Successful ===
+
+
+LARGEST ELEMENT IN ARRAY
+
+#include<iostream>
+ using namespace std;
+ int main(){
+    int arr[50],i,n;
+    cout<<"Enter the number of eelements:";
+    cin>>n;
+    
+    cout<<"Enter the elements in to the array:";
+    for(i=0;i<n;i++){
+        cin>>arr[i];
+    };
+    int largest=arr[0];
+    cout<<"\nLargest element\n";
+    for(i=0;i<n;i++){
+        if(arr[i]>largest){
+            largest=arr[i];
+        };
+    };
+    cout<<"Largest element in the array is:"<<largest;
+    return 0;
+ }
