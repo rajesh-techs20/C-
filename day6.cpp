@@ -73,3 +73,10 @@ int main(){
     };
     return 0;
 }
+
+OUTPUT
+Enter the number of elements:4
+Enter the elements:1 2 3 4
+Enter the element to search:9
+The element not found in the array
+
