@@ -23,3 +23,9 @@ int main(){
     return 0;
     
 }
+
+OUTPUT
+Enter the number of elements:5
+10 4 70 53 6
+Maximum elementMax element is:70
+
