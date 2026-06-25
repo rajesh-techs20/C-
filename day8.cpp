@@ -45,8 +45,15 @@ REVERSE ARRAY
      }
      cout<<"Reverse array is:";
      for(i=n-1;i>=0;i--){
-         cout<<arr[i];
+         cout<<arr[i]<<endl;
      }
      return 0;
      
  }
+
+OUTPUT
+Enter a number of elements:3
+Enter elements:123 22 122
+
+
+Reverse array is:122 22  123
