@@ -36,3 +36,29 @@ Counting even and odd numbers
 Number of even elements:2
 Number of odd elements:3
 
+LARGEST AND SMALLEST ELEMENT IN ARRAY
+ #include<iostream>
+ using namespace std;
+ int main() {
+     int arr[50],i,n;
+     cout<<"Enter the number of elements:";
+     cin>>n;
+     
+     cout<<"Enter the elements in to array:";
+     for(i=0;i<n;i++){
+         cin>>arr[i];
+     }
+     int largest=arr[0],smallest=arr[0];
+     for(i=0;i<n;i++){
+         if(arr[i]>largest){
+             largest=arr[i];
+         }
+         else if(arr[i]<smallest){
+             smallest=arr[i];
+         }
+     }
+     cout<<"The largest elements is:"<<largest<<"\n";
+     cout<<"The smallest elements is:"<<smallest;
+     
+     return 0;
+ }
