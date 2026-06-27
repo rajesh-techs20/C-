@@ -26,3 +26,13 @@ int main()
     cout<<"Number of odd elements:"<<odd;
     return 0;
 }
+
+OUTPUT
+Enter the number of elements:5
+Enter the elements:1 2 3 4 5
+
+Counting even and odd numbers
+
+Number of even elements:2
+Number of odd elements:3
+
